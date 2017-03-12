@@ -1,0 +1,128 @@
+/*  Global Styles */
+img {
+  width: 100%; }
+
+body {
+  margin: 0;
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6, ul, p, a {
+  margin: 0;
+  padding: 0; }
+
+h1, h3 {
+  color: white; }
+
+h1 {
+  font-size: 4rem;
+  padding: 10px 0; }
+
+h3 {
+  text-transform: uppercase;
+  padding: 10px 0; }
+
+button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  transition: all 1s ease-in-out; }
+
+button:hover {
+  background-color: #949494; }
+
+button:focus {
+  outline: none; }
+
+header {
+  width: 100%;
+  height: 50px;
+  background: black; }
+  header img {
+    margin: 10px 0px 10px 75px;
+    width: 75px; }
+
+/*  Navigation */
+ul {
+  list-style-type: none;
+  float: right;
+  margin-right: 75px; }
+  ul li {
+    display: inline-block;
+    padding: 10px; }
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 0 1px;
+  display: block;
+  font-size: .8rem; }
+
+a:hover {
+  text-decoration: underline; }
+
+.dropdown {
+  position: relative;
+  left: 0;
+  padding-bottom: 25px; }
+
+.drop-nav {
+  position: absolute;
+  left: 0;
+  top: 45px;
+  width: 200px;
+  background-color: white;
+  display: none; }
+  .drop-nav li {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0; }
+    .drop-nav li a {
+      color: black;
+      font-size: .8rem;
+      font-weight: 600; }
+  .drop-nav li:hover {
+    background-color: lightgrey; }
+    .drop-nav li:hover a {
+      text-decoration: none; }
+
+.dropdown:hover .drop-nav {
+  display: block; }
+
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  height: 600px; }
+
+.hero-text {
+  text-align: center;
+  padding-top: 200px; }
+
+form {
+  text-align: center;
+  position: relative; }
+  form img {
+    width: 25px;
+    position: absolute;
+    top: 7px;
+    margin-left: 5px; }
+  form input {
+    width: 300px;
+    padding: 10px 10px 10px 30px; }
+
+@media (max-width: 768px) {
+  header ul {
+    margin-right: 10px; }
+  header img {
+    margin-left: 10px;
+    width: 60px; }
+
+  button {
+    display: none; }
+
+  h1 {
+    font-size: 3rem;
+    padding: 0 0 50px; } }
+
+/*# sourceMappingURL=style.css.map */
